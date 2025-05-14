@@ -133,5 +133,22 @@ body {
   font-size: smaller;
 }
 
+.pdf-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1rem;
+}
 
+.pdf-item {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+iframe {
+  width: 100%;
+  height: 550px;
+  border: none;
+}
 
